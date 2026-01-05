@@ -3,12 +3,22 @@
 **/*.rs.bk
 Cargo.lock
 
-# ===== Editor / IDE =====
-.idea/
+# ===== VS Code =====
 .vscode/
+*.code-workspace
+
+# ===== JetBrains (IntelliJ / CLion / RustRover) =====
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== Other editors =====
 *.swp
 *.swo
-*.tmp
+*~
+.vim/
+.nvim/
 
 # ===== OS files =====
 .DS_Store
@@ -29,6 +39,3 @@ Thumbs.db
 *.dll
 *.so
 *.dylib
-
-# ===== Ratatui / terminal =====
-.term-history
