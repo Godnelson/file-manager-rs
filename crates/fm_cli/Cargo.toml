@@ -1,0 +1,18 @@
+[package]
+name = "fm_cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+
+crossbeam-channel = { workspace = true }
+
+crossterm = { workspace = true }
+ratatui = { workspace = true }
+
+fm_core = { path = "../fm_core" }
+fm_tui = { path = "../fm_tui" }
+fm_platform = { path = "../fm_platform" }

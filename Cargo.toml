@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = ["crates/fm_core", "crates/fm_platform", "crates/fm_tui", "crates/fm_cli"]
+
+[workspace.dependencies]
+anyhow = "1"
+thiserror = "1"
+
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+clap = { version = "4", features = ["derive"] }
+
+ratatui = "0.28"
+crossterm = "0.27"
+
+crossbeam-channel = "0.5"
+walkdir = "2"
