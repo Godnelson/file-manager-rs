@@ -1,2 +1,34 @@
-# Project exclude paths
+# ===== Rust / Cargo =====
 /target/
+**/*.rs.bk
+Cargo.lock
+
+# ===== Editor / IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Coverage / profiling =====
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.gcov
+
+# ===== Build artifacts =====
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ===== Ratatui / terminal =====
+.term-history
